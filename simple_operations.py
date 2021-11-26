@@ -20,4 +20,3 @@ def print_calendar(year: int = date.today().year, month: int = date.today().mont
     """
     c = calendar.TextCalendar(calendar.MONDAY)
     print(c.formatmonth(year, month))
-
